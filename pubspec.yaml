@@ -1,0 +1,57 @@
+name: imio_flutter
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  imio_sdk_lite:
+    path: ../imio-sdk-dart
+  protobuf: ^2.1.0
+  dio: ^5.9.0
+  device_info_plus: ^8.1.0
+  go_router: ^13.1.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.0.0
+  flutter_svg: ^2.0.9
+  logging: ^1.2.0
+  jwt_decoder: ^2.0.1
+  fluttertoast: ^8.2.0
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.8.0
+  iconfont: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Iconfont2
+      fonts:
+        - asset: assets/fonts/iconfont/iconfont.ttf
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
